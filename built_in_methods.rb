@@ -44,7 +44,18 @@
 first_name = "Jeff"
 puts first_name.start_with?("J")
 
+# Calls the 'upcase' method on city variable
+# This method converts all lowercase letters in the string to uppercase
+# It returns a new string with all uppercase letters, the return value is "NEW YORK"
+city = "New York"
+puts city.upcase 
 
+
+# Calls the 'strip' method on the variable student
+# This method removes leading and trailing whitespace from the string
+# It returns a new string with the whitespace removed, "Selena Kayyali"
+student = "    Selena Kayyali      "
+puts student.strip 
 
 # SECTION 3: Calling methods on variables assigned to integers.
 # Declare 2 variables assigned to integer objects.
@@ -53,9 +64,34 @@ puts first_name.start_with?("J")
 # Include comments above each method call explaining the impact and return value of that method.
 
 
+# Calls the div method on number variable, with 3 as an argument
+# This method excutes integer division of number by the given argument
+# The return value is (33)
+number = 132
+puts number.div(4)
+
+
+# Calls the abs method on the variable num
+# This method returns the absolute value of the number, it converts negative numbers to positive numbers
+# The return value is 18
+num = -18
+puts num.abs
 
 # SECTION 4: Calling methods on variables assigned to arrays.
 # Declare 2 variables assigned to arrays.
 # Call a different built-in Ruby method on each of your variables. 
 # https://ruby-doc.org/core-3.1.0/Array.html
 # Include comments above each method call explaining the impact and return value of that method.
+
+
+# The max method is called on the array ages
+# This method returns the maximum value in the array
+# The return value here is 50 
+ages = [10, 16, 50, 22, 38]
+puts ages.max
+
+# The reverse method is called in the array fruits
+# This method returns a new array with the elements in reverse order
+# the return value is apple melon cherry banana each word in a new line
+fruits = ["banana", "cherry", "melon", "apple"]
+puts fruits.reverse 
