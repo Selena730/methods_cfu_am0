@@ -8,19 +8,24 @@
 # The return value is "hello world"
 "Hello World".downcase
 
-
+# The include? methhod is called on the string "Hello World"
+# Shows if the string includes the word "Hello", the return value is true
 "Hello World".include?("Hello")
 
-
+# The end_with? method is called on the string "Hello World"
+# Shows if the string ends with "Hello", the return value is false
 "Hello World".end_with?("Hello")
 
-
+# The same method as the previous example (end_with?)
+# Shows is the string ends with "rld", return value is true
 "Hello World".end_with?("rld")
 
-
+# The even method, returns true if int is an even number
+# The return value is true
 12.even?
 
-
+# The next function, returns the next or immediate successor of a number
+# The return value is 19
 18.next
 
 
